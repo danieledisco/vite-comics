@@ -34,12 +34,12 @@ export default {
 <style scoped>
 header {
     background-color: var(--compics-light);
-    padding: 2rem 0;
+    margin-bottom: 1px;
 
     & .contELements {
         display: flex;
         justify-content: space-between;
-
+        padding: 0.5rem 0;
 
         & .main_menu {
             margin-top: 2rem;
@@ -51,8 +51,8 @@ header {
                 text-decoration: none;
                 padding-top: 3.6rem;
                 padding-bottom: 3.6rem;
-                margin-left: 1rem;
-                margin-right: 1rem;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
                 color: var(--comics-dark);
                 font-weight: 700;
             }
