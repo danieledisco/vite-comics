@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --comics-blue: #0282F9;
+  --comics-text: #959595;
+  --comics-dark: black;
+  --comics-light: white;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1176px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.col {
+  width: auto;
+  flex-basis: auto;
+  padding: 1rem;
+}
