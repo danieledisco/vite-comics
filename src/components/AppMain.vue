@@ -87,7 +87,9 @@ main {
         display: flex;
         color: var(--comics-light);
 
+
         & .cardImage {
+            border: 1px solid red;
             text-align: center;
             width: var(--comics-card-image-width);
             color: var(--comics-light);

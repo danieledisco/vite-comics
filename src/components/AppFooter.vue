@@ -8,6 +8,9 @@ export default {
 <template>
     <footer>
         <div class="footerUp">
+            <div class="container">
+
+            </div>
 
         </div>
         <div class="footerDown">
