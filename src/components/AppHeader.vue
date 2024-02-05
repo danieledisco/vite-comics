@@ -26,7 +26,6 @@ export default {
                     </ul>
                 </nav>
             </div>
-
         </div>
     </header>
 </template>

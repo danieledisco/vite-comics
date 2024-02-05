@@ -60,19 +60,38 @@ export default {
             </div>
         </div>
         <div class="footerDown">
-
+            <div class="container">
+                <div class="contELements">
+                    <div class="sign">
+                        <button class="btn">SIGN-UP NOW!</button>
+                    </div>
+                    <nav>
+                        <ul class="listClass">
+                            <li class="firstLi">FOLLOW US</li>
+                            <li><a href="#"><img src="/footer-facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="/footer-twitter.png" alt=""></a></li>
+                            <li><a href="#"><img src="/footer-youtube.png" alt=""></a></li>
+                            <li><a href="#"><img src="/footer-pinterest.png" alt=""></a></li>
+                            <li><a href="#"><img src="/footer-periscope.png" alt=""></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     </footer>
 </template>
  
 <style scoped>
 footer {
-    background-image: url('/dc-logo-bg.png'), url('/footer-bg.jpg');
-    background-size: auto, cover;
-    background-repeat: no-repeat, no-repeat;
-    background-position: right top, center;
+
+    background-image: url('/footer-bg.jpg');
+    background-size: cover;
 
     & .footerUp {
+        background-image: url('/dc-logo-bg.png');
+        background-position: 1000px;
+        background-repeat: no-repeat;
+
         & h2 {
             color: var(--comics-light);
             padding: 0.8rem 0;
@@ -90,8 +109,54 @@ footer {
     }
 
     & .footerDown {
-        height: 200px;
         background-color: var(--comics-gray);
+
+        & .contELements {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+
+            & .sign {
+                border: 3px solid var(--comics-blue);
+                margin: 2rem 0;
+
+                & .btn {
+                    color: var(--comics-light);
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    background-color: var(--comics-gray);
+                    padding: 1rem;
+                }
+            }
+
+            & nav {
+                margin: 2rem 0;
+
+
+                & .listClass {
+                    list-style: none;
+                    display: flex;
+
+                    & .firstLi {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        color: var(--comics-blue);
+                        padding: 1rem;
+                    }
+
+                    & img {
+                        padding: 1rem 0.5rem;
+                    }
+
+                    & a {
+                        text-decoration: none;
+                        color: var(--comics-gray-text);
+
+                    }
+                }
+
+            }
+        }
     }
 }
 </style>
