@@ -105,8 +105,4 @@ main {
 
     }
 }
-
-.svg {
-    z-index: 100;
-}
 </style>
