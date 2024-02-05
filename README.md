@@ -7,3 +7,4 @@ Organizzate il layout come visto a lezione e quando avete pronto un blocco, inca
 ## Bonus:
 
 1. Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+2. Provate a pensare a come popolereste dinamicamente le voci del menu nell'header. Ciascuna ha un href ed un testo, che tipo di struttura dati usereste? Dove la scrivo? l'oggetto data del componente AppHeader potrebbe essere il posto giusto. 
