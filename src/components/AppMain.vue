@@ -30,6 +30,7 @@ export default {
                         <div class="cardName">
                             DC MERCHANDISE
                         </div>
+
                     </div>
                     <div class="col">
                         <div class="cardImage">
@@ -38,6 +39,7 @@ export default {
                         <div class="cardName">
                             SUBSCRIPTION
                         </div>
+
                     </div>
 
                     <div class="col">
@@ -47,6 +49,7 @@ export default {
                         <div class="cardName">
                             COMIC SHOP LOCATOR
                         </div>
+
                     </div>
                     <div class="col">
                         <div class="cardImage">
@@ -56,6 +59,7 @@ export default {
                         <div class="cardName">
                             DC POWER VISA
                         </div>
+
                     </div>
 
                 </div>
@@ -67,7 +71,7 @@ export default {
  
 <style scoped>
 main {
-    min-height: 600px;
+    /* min-height: 600px; */
 }
 
 .mainUp {
@@ -81,19 +85,22 @@ main {
 
 .mainDown {
     background-color: var(--comics-blue);
-    padding: 4rem 0;
+    padding: 2rem 0;
 
     & .col {
         display: flex;
         color: var(--comics-light);
 
-
         & .cardImage {
-            border: 1px solid red;
+            margin-left: 2.5rem;
             text-align: center;
-            width: var(--comics-card-image-width);
             color: var(--comics-light);
+            margin-top: auto;
+            margin-bottom: auto;
 
+            & img {
+                width: var(--comics-card-image-width);
+            }
         }
 
         & .cardName {
