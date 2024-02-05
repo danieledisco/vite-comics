@@ -9,6 +9,7 @@
   --comics-text: #959595;
   --comics-dark: black;
   --comics-light: white;
+  --comics-card-image-width: 70%;
 }
 
 body {
@@ -23,8 +24,9 @@ body {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: 0 -1rem;
+  align-content: center;
 }
 
 .col {
