@@ -39,6 +39,15 @@ export default {
                             SUBSCRIPTION
                         </div>
                     </div>
+
+                    <div class="col">
+                        <div class="cardImage">
+                            <img src="/buy-comics-shop-locator.png" alt="">
+                        </div>
+                        <div class="cardName">
+                            COMIC SHOP LOCATOR
+                        </div>
+                    </div>
                     <div class="col">
                         <div class="cardImage">
                             <img src="/buy-dc-power-visa.svg" alt="">
@@ -48,15 +57,6 @@ export default {
                             DC POWER VISA
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="cardImage">
-                            <img src="/buy-comics-shop-locator.png" alt="">
-                        </div>
-                        <div class="cardName">
-                            COMIC SHOP LOCATOR
-                        </div>
-                    </div>
-
 
                 </div>
 
